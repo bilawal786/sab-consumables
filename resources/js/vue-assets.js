@@ -18,5 +18,4 @@ if (token) {
 // vue js instance
 import Vue from 'vue'
 window.Vue = require('vue');
-
 export const EventBus = new Vue();
