@@ -29,13 +29,13 @@ class EmployeeImport implements ToModel
             'surname'       => $row[2],
             'paypoint'    => $row[3],
             'selection_1'   => $row[4],
-            'selection_2'   => $row[5],
-            'selection_3'   => $row[6],
-            'shift_bear'      => $row[7],
-            'other_bear'      => $row[8],
-            'signature'      => $row[9],
-            'date'          => $this->date,
-            'user_id'       => $this->user_id
+            'selection_2'   => $row[5]??"",
+            'selection_3'   => $row[6]??"",
+            'shift_bear'      => $row[7]??"",
+            'other_bear'      => $row[8]??"",
+            'signature'      => $row[9]??"",
+            'date'          => $this->date??"",
+            'user_id'       => $this->user_id??""
         ]);
     }
 }
