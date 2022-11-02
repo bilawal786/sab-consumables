@@ -16,7 +16,7 @@
                     <div class="col-lg-8">
                         <div class="card">
                             <div class="header">
-                                <h2>SAB O & G</h2>
+                                <h2>SAB Cosumables</h2>
                                 <ul class="header-dropdown dropdown dropdown-animated scale-left">
 
                                 </ul>
